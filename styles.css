@@ -8,3 +8,8 @@
 body {
     background-color: salmon;
 }
+
+img {
+    max-width: 100%;
+}
+
