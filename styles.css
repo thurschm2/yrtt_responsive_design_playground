@@ -10,6 +10,40 @@ body {
 }
 
 img {
+    display: none;
     max-width: 100%;
 }
 
+.purple-rect {
+    height: 200px;
+    background-color: plum;
+    border:1px solid lightcoral;
+}
+
+.blue-rect {
+    height: 200px;
+    background-color: lightcyan;
+    border: 1px solid lightcoral;
+}
+
+
+.section {
+    border: 5px solid purple;
+}
+
+@media only screen  and (min-width: 600px) {
+    img {
+        display: block;
+    }
+}
+@media only screen and (min-width :800px) {
+    body {
+        background-color: darkslateblue;
+    }
+}
+
+@media only screen and (min-width : 1000px) {
+    body {
+        background-color: yellow;
+    }
+}
